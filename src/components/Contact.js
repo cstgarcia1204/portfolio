@@ -6,7 +6,7 @@ class Contact extends React.Component {
    
     render(){
         return(
-        <>
+        <div className='preview'>
             <div className='cypher'> 
                 <a href="https://cstgarcia1204.github.io/GDL003-cipher/src/" tittle="cipher">
                 <img src="https://i.ibb.co/khZKzZy/inicio-Internet.png" alt="cipher"/> </a>
@@ -28,11 +28,11 @@ class Contact extends React.Component {
                 <img src="https://i.ibb.co/J3y5J5v/Screenshot-2019-10-17-Ciboulette.png" alt="ciboulette"/> </a>
             </div>
             <div className= 'contactData'>
-                <h2>Email: ckstgarcia@gmail.com</h2>
-                <h2>Github: https://github.com/cstgarcia1204</h2>
+                <h2>Email: <a href='ckstgarcia@gmail.com'>ckstgarcia@gmail.com</a></h2>
+                <h2>Github: <a href='https://github.com/cstgarcia1204'>https://github.com/cstgarcia1204</a></h2>
             </div>
            
-        </>
+        </div>
         );
     }
 
