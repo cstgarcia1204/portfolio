@@ -1,22 +1,32 @@
 .App {
   text-align: center;
+  height: 100%;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 40%;
+  width: 40%;
+  border-radius: 30%
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #1b0414;
+  min-height: 30vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(5% + 2vmin);
+  margin-right: 5%;
+  margin-left: 5%;
   color: white;
+  overflow: auto;
 }
 
-.App-link {
-  color: #09d3ac;
+
+.cypher img{
+  height: 35%;
+  width: 35%;
+  padding: 5%;
+  display: inline-block;
 }
