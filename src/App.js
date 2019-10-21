@@ -18,8 +18,8 @@ class App extends React.Component {
           </h2>
         </header>
         <BrowserRouter>
-        <li type='circle'>
-                    <Link to="/Contact">Contact</Link>
+        <li type='circle' className= 'linkContact'>
+                    <Link to="/Contact">Click Aquí para Proyectos!!</Link>
                 </li>
             <Route path="/contact" component={Contact}/>
         </BrowserRouter>

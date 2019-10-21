@@ -16,7 +16,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(5% + 2vmin);
+  font-size: xx-large;
   margin-right: 5%;
   margin-left: 5%;
   color: white;
@@ -29,4 +29,10 @@
   width: 35%;
   padding: 7%;
   display: inline-block;
+}
+
+
+.linkContact{
+  font-size: xx-large;
+  padding:5%;
 }
