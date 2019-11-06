@@ -7,7 +7,7 @@ const Navi= ()=>{
         <React.Fragment>
             <ul>
                 <li type='circle'>
-                    <Link to="/Home">Home</Link>
+                    <Link to="/logo">Home</Link>
                 </li>
                 <li type='circle'>
                     <Link to="/Contact">Contact</Link>
