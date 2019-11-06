@@ -17,7 +17,7 @@ class Main extends React.Component {
 
   handleSubmit(){
     this.setState((prevState)=>{
-      return {isContactClicked : !prevState.isContactClicked}
+      return {isContactClicked : true/*!prevState.isContactClicked*/}
       
     })
   }
