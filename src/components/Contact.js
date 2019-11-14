@@ -104,13 +104,37 @@ export default function Contact(){
 
                 <section>
                     <Card className={classes.card} style={{ backgroundColor: accent }}>
+                        <h2>Red Social</h2>
+                        <CardActionArea>
+                            <Link href='https://cstgarcia1204.github.io/GDL003-social-network/src/'>
+                                <CardMedia
+                                component="img"
+                                alt="movie-challenge"
+                                height="220"
+                                image="https://i.imgur.com/EHbKcaC.jpg"
+                                title="Red-social"
+                                />
+                            </Link>
+                            <CardContent>   
+                                <Typography variant="body1" color="textPrimary" component="p">
+                                FoodJUNKIES project is a Social Network that was developed, contemplating a Login, Content and the use of GoogleMaps API.
+                                In this case the topic is food recommendation app.
+                                WebApp developed whit Vanilla JavaScript
+                                </Typography>
+                            </CardContent>
+                        </CardActionArea>
+                    </Card>
+                </section>
+
+                <section>
+                    <Card className={classes.card} style={{ backgroundColor: accent }}>
                         <h2>Lab Notes</h2>
                         <CardActionArea>
                             <Link href='https://cstgarcia1204.github.io/GDL003-lab-notes/?mode=select#/login'>
                                 <CardMedia
                                 component="img"
                                 alt="lab-notes"
-                                height="230"
+                                height="250"
                                 image="https://i.ibb.co/FkpJb6X/Screenshot-2019-10-17-ck-notes.png"
                                 title="Lab-notes"
                                 />
@@ -132,7 +156,7 @@ export default function Contact(){
                                 <CardMedia
                                 component="img"
                                 alt="ciboulette"
-                                height="230"
+                                height="220"
                                 image="https://i.ibb.co/J3y5J5v/Screenshot-2019-10-17-Ciboulette.png"
                                 title="Ciboulette"
                                 />
