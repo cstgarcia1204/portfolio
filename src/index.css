@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("purple-polygon-background.png");
+  background-size:100% contain;
   background-color: #1b0414;
   color: greenyellow;
 

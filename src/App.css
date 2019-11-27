@@ -8,15 +8,16 @@
 .Logo-logo {
   height: 30%;
   width: 30%;
-  border-radius: 30%;
+  border-radius: 20%;
+  padding: 2%;
 
 }
 
 .Logo-header {
-  background-color: #1b0414;
+  /*background-color: #1b0414;*/
   align-items: center;
   font-size:x-large;
-  color: white;
+  color: greenyellow;
 
 }
 
@@ -30,11 +31,55 @@
 
 
 
-.nameContact, .contactData{
-  font-size: xx-large;
-  padding:.5%;
+.nameContact{
+  font-size: 250%;
+  padding:2%;
+
 }
 
 .myName{
   font-size: xx-large;
+}
+
+.contactData{
+  font-size: 150%;
+  padding:4%;
+}
+
+.contactData a{
+  text-decoration:none;
+  color: greenyellow;
+}
+
+.navBar{
+  padding-bottom: 4%;
+}
+.navBar ul{
+  list-style-type: none;
+  padding: 5%;
+}
+
+.navBar a{
+  float: right;
+  text-align: center;
+  padding: 2% 4%;
+  font-size: x-large;
+  text-decoration:none;
+  color: greenyellow; 
+  border:solid;
+}
+
+
+.logoContact a {
+  text-decoration:none;
+  font-size: larger;
+  color: greenyellow;
+  list-style-type: none;
+}
+
+.About-header{
+  padding:5%;
+  text-align: left;
+  font-size: 1.5vw;
+
 }

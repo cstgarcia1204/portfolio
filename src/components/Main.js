@@ -28,13 +28,13 @@ class Main extends React.Component {
       <div className="mainLogo">
         {this.state.isContactClicked ? (
           <div>
-          <Redirect to='/contact' />
+          <Redirect to='/projects' />
           </div>
             
           ) : (
           <div>
             <Redirect to='/logo' />
-            <h3 className="nameContact" onClick={this.handleSubmit}> Welcome!! Click here to see Projects</h3>
+            <marquee className="nameContact" onClick={this.handleSubmit}> Welcome!! Click here to see my Projects</marquee>
           </div>
             )}
       </div>

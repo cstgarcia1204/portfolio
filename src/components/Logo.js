@@ -11,14 +11,18 @@ class Logo extends React.Component {
   render() {
     return (
       <div>
+        
+
+        
         <header className="Logo-header">
-          <img src="https://i.ibb.co/YXYBr09/logock.png" className="Logo-logo" alt="logo" />
-          <h2>Front-End Developer_</h2>
-          <h2 className="myName">Cinthia Karen Sánchez de Tagle García</h2>
+          <img src="https://i.ibb.co/3fXmXRH/logo-ck.png" className="Logo-logo" alt="logo" />
+          <h2 className="myName">Hello! my name is Cinthia Sánchez de Tagle</h2>
+          <h2>I'm a Junior Front-End Developer_</h2>
         </header>
-        <li type='circle'>
+        <li className='logoContact'>
             <Link to="/Contact">Contact</Link>
-        </li>  
+        </li>
+       
       </div>
     );
   }

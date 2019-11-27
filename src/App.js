@@ -3,6 +3,8 @@ import './App.css';
 import Main from './components/Main'
 import Logo from './components/Logo';
 import Contact from './components/Contact';
+import Projects from './components/Projects'
+import About from './components/About';
 //import Navi from './components/Navigator';
 
 import {HashRouter, Route} from 'react-router-dom';
@@ -16,8 +18,10 @@ class App extends React.Component {
         <HashRouter>
           <React.Fragment>
             <Route path="/" component={Main}/>
-            <Route path="/logo" component={Logo}/>
-            <Route path="/Contact" component={Contact}/>     
+            <Route path="/Logo" component={Logo}/>
+            <Route path="/Projects" component={Projects}/>
+            <Route path="/Contact" component={Contact}/>
+            <Route path="/About" component={About}/>
           </React.Fragment>
         </HashRouter>
 
