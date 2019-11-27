@@ -11,10 +11,11 @@ class About extends React.Component {
   render() {
     return (
       <div>
+        <img src="https://i.imgur.com/aGx5AFG.jpg" alt="cinthia" className='myPhoto'/>
         <header className="About-header">
           <h2>About Me_</h2>
             <p>
-              I am passionate about technologies and business administration.
+              I am passionate about technology and business administration.
             </p>
             <p>
               I have studied Turism at University of Guadalajara and now I have transferred my passion  to programming languages.
@@ -31,8 +32,6 @@ class About extends React.Component {
          
           <p></p>
         </header>
-
-
 
         <Navi/>
       </div>
