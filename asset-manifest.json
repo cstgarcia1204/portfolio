@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.9d989fe2.chunk.css",
+    "main.css": "/portfolio/static/css/main.a2eb0399.chunk.css",
     "main.js": "/portfolio/static/js/main.0a0bfbd1.chunk.js",
     "main.js.map": "/portfolio/static/js/main.0a0bfbd1.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.99e7896e.js",
@@ -8,15 +8,15 @@
     "static/js/2.79dded07.chunk.js": "/portfolio/static/js/2.79dded07.chunk.js",
     "static/js/2.79dded07.chunk.js.map": "/portfolio/static/js/2.79dded07.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.9ebbf1fee5fc847f79ed1e5b3e7d03cd.js": "/portfolio/precache-manifest.9ebbf1fee5fc847f79ed1e5b3e7d03cd.js",
+    "precache-manifest.1511b4ccee117da1d242a36d65fbdb24.js": "/portfolio/precache-manifest.1511b4ccee117da1d242a36d65fbdb24.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.9d989fe2.chunk.css.map": "/portfolio/static/css/main.9d989fe2.chunk.css.map",
+    "static/css/main.a2eb0399.chunk.css.map": "/portfolio/static/css/main.a2eb0399.chunk.css.map",
     "static/media/index.css": "/portfolio/static/media/purple-polygon-background.05d2b616.png"
   },
   "entrypoints": [
     "static/js/runtime-main.99e7896e.js",
     "static/js/2.79dded07.chunk.js",
-    "static/css/main.9d989fe2.chunk.css",
+    "static/css/main.a2eb0399.chunk.css",
     "static/js/main.0a0bfbd1.chunk.js"
   ]
 }
